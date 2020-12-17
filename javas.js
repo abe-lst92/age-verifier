@@ -17,6 +17,23 @@ ageTeller();
 
 
 
+var str = "Squirt";
+
+switch (str) 
+{
+    case "Squirt":
+        alert("This is my favorite coke");
+    case "coca-cola":
+        alert("This is my second favorite coke");
+        break;
+    case "mtdw":
+        alert("This is the third soda that i like");
+        break;
+    default:
+        alert("Unknown coke");
+        break;
+}
+  document.getElementById("demo").innerHTML = str;
 
 // for(let i = 0; i < 10; i++){
 //     document.write("Hello World" + '<br/>');

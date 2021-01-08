@@ -33,8 +33,8 @@ function info2(){
     var design2 = document.getElementById("details2");
 
     for(value in lamborghini){
-        design2.innerHTML = "Type " + ferrari.type + "<br>" +
-        "Model " + ferrari.model + " </br> " + "Available " + ferrari.available + "</br>" + " Description " + ferrari.description;
+        design2.innerHTML = "Type " + lamborghini.type + "<br>" +
+        "Model " + lamborghini.model + " </br> " + "Available " + lamborghini.available + "</br>" + " Description " + lamborghini.description;
     }
 }
 
@@ -49,8 +49,8 @@ var whippet={
     var design3 = document.getElementById("details3");
 
     for(value in whippet){
-        design3.innerHTML = "Type " + ferrari.type + "</br>" +
-        "Model " + ferrari.model + "</br>" + "Available " + ferrari.available + "</br>" + " Description " + ferrari.description;
+        design3.innerHTML = "Type " + whippet.type + "</br>" +
+        "Model " + whippet.model + "</br>" + "Available " + whippet.available + "</br>" + " Description " + whippet.description;
     }
 
  }
